@@ -3,6 +3,9 @@
 Problem:
 The problem is to find the square of the largest even number in an array. This involves iterating over the array, identifying even numbers, keeping track of the largest even number, and finally calculating its square.
 
+Choice of Data Structure: 
+In this problem, we are given an array of numbers and we need to find the square of the largest even number. Here, we use the array data structure as given. This is because arrays allow us to access any element directly (random access) and we can iterate over all elements easily, which is exactly what we need for this problem. No additional data structures are needed as we only need to keep track of the largest even number found so far, which can be done using a simple variable. If the input was in a different data structure, for example, a linked list, the problem would still be solvable but the operations might not be as efficient. For example, accessing elements in a linked list is not as direct as in an array and requires traversal.
+
 Time Complexity:
 The time complexity of this problem is O(n), where n is the size of the array. This is because we are iterating over the array once, and for each number, we are performing a constant amount of work checking if it's even and if it's larger than the current largest even number.
 
