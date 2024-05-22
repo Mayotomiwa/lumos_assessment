@@ -19,4 +19,4 @@ Other Considerations:
 When implementing the solution, it's important to handle potential issues like integer overflow which is when the square of the largest even number is too large to be represented by the integer type.
 
 Taking all the above parameters into consideration before solving the problem is very important because it allows us to work fast and efficiently by
-streamlining the needed approach for writing the code when all parameters are already stated writing the code is more straightforward.
+streamlining the needed approach for writing the code.
